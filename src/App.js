@@ -17,7 +17,11 @@ function App() {
         </div>
         <div className="texts">
         <h2>Winners of the Holiday Jamboree!</h2>
-        <p>I had no idea that Sylvia Plath wrote children's stories and I'm not sure why this surprised me so much. I purchased this book on a whim in a charity shop, out of curiosity but also because I have not really read much of Plath's work.</p>
+        <p className="info">
+          <a className="author">Thisara Jay</a>
+          <time>2023-12-10 14:45</time>
+        </p>
+        <p className="summary">I had no idea that Sylvia Plath wrote children's stories and I'm not sure why this surprised me so much. I purchased this book on a whim in a charity shop, out of curiosity but also because I have not really read much of Plath's work.</p>
         </div>
       </div>
       <div className="post">
@@ -26,7 +30,11 @@ function App() {
         </div>
         <div className="texts">
         <h2>Winners of the Holiday Jamboree!</h2>
-        <p>I had no idea that Sylvia Plath wrote children's stories and I'm not sure why this surprised me so much. I purchased this book on a whim in a charity shop, out of curiosity but also because I have not really read much of Plath's work.</p>
+        <p className="info">
+          <a className="author">Thisara Jay</a>
+          <time>2023-12-10 14:45</time>
+        </p>
+        <p className="summary">I had no idea that Sylvia Plath wrote children's stories and I'm not sure why this surprised me so much. I purchased this book on a whim in a charity shop, out of curiosity but also because I have not really read much of Plath's work.</p>
         </div>
       </div>
       <div className="post">
@@ -35,7 +43,11 @@ function App() {
         </div>
         <div className="texts">
         <h2>Winners of the Holiday Jamboree!</h2>
-        <p>I had no idea that Sylvia Plath wrote children's stories and I'm not sure why this surprised me so much. I purchased this book on a whim in a charity shop, out of curiosity but also because I have not really read much of Plath's work.</p>
+        <p className="info">
+          <a className="author">Thisara Jay</a>
+          <time>2023-12-10 14:45</time>
+        </p>
+        <p className="summary">I had no idea that Sylvia Plath wrote children's stories and I'm not sure why this surprised me so much. I purchased this book on a whim in a charity shop, out of curiosity but also because I have not really read much of Plath's work.</p>
         </div>
       </div>
     </main>
