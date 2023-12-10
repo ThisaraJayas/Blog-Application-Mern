@@ -5,12 +5,15 @@ import Header from './component/Header';
 import{Route, Routes} from 'react-router-dom'
 import Layout from './component/Layout';
 import IndexPage from './component/IndexPages';
+import LoginPage from './component/Login';
+import RegisterPage from './component/Register';
 function App() {
   return (
       <Routes>
         <Route path='/' element={<Layout/>}>
           <Route index element={<IndexPage/>}/>
-          <Route path='/login' element={<div>Login</div>}/>
+          <Route path='/login' element={<LoginPage/>}/>
+          <Route path='/register' element={<RegisterPage/>}/>
         </Route>
       </Routes>
 
