@@ -4,9 +4,9 @@ import Post from './component/Post';
 import Header from './component/Header';
 import{Route, Routes} from 'react-router-dom'
 import Layout from './component/Layout';
-import IndexPage from './component/IndexPages';
-import LoginPage from './component/Login';
-import RegisterPage from './component/Register';
+import IndexPage from './component/pages/IndexPages';
+import LoginPage from './component/pages/Login';
+import RegisterPage from './component/pages/Register';
 import { UserContextProvider } from './component/UserContext';
 function App() {
   return (
