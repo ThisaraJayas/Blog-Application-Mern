@@ -10,7 +10,7 @@ export default function Post({title,summary,cover,content,createdAt,author}){
         <h2>{title}</h2>
         <p className="info">
           <a className="author">{author.username}</a>
-          {/* to print date in time format = client-> npm install date-fns */}
+          {/* To print date in time format = client-> npm install date-fns */}
           <time>{format(new Date(createdAt), 'MMM d, yyyy HH:mm')}</time>
         </p>
         <p className="summary">{summary}</p>
