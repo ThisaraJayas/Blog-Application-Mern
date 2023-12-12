@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import ReactQuill from 'react-quill'
 import 'react-quill/dist/quill.snow.css'
+import { Navigate } from 'react-router-dom'
 const models={
     toolbar:[
         [{ 'header': [1, 2, false] }], // Header option
@@ -21,6 +22,8 @@ export default function CreatePost(){
     const [summary,setSummary] = useState('')
     const [content,setContent] = useState('')
     const [files, setFiles] = useState('')
+    const [redirect, setRedirect] = useState(false)
+
    async function createNewPost(ev){
         //because we have images and stuff we are not sending as json body insted we send as form
         const data = new FormData()
@@ -32,9 +35,17 @@ export default function CreatePost(){
        const response = await fetch('http://localhost:4000/post',{
             method: 'POST',
             body: data,
+            credentials: 'include'
         })
-        console.log(await response.json())
+        //Display DataBase post details now
+        if(response.ok){
+            setRedirect(true)
+        }
     }
+        if(redirect){
+           return <Navigate to={'/'}/>
+           //change in our indexPage.js to get real values
+        }
     return(
         <form onSubmit={createNewPost}>
             <input type="title" placeholder={'Title'} 
