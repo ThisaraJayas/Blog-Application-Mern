@@ -32,6 +32,7 @@ export default function Header(){
           {/* if username is (cookie created) */}
           {username &&(
             <>
+            <span>Hello, {username}</span>
               <Link to="/create">Create new post</Link>
               <a onClick={logout}>Logout</a>
             </>
