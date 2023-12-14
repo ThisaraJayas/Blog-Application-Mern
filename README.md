@@ -1,3 +1,16 @@
+NOTE: Backend is in another repository:  https://github.com/ThisaraJayas/Blog-Application-Mern-Server
+
+![Screenshot (882)](https://github.com/ThisaraJayas/Blog-Application-Mern/assets/124505409/9fb5bdb4-d4d6-4abc-9e2c-36b44941e7f1)
+
+![Screenshot (889)](https://github.com/ThisaraJayas/Blog-Application-Mern/assets/124505409/a621c9eb-f999-4d2b-a502-a2b216b30aeb)
+
+![Screenshot (883)](https://github.com/ThisaraJayas/Blog-Application-Mern/assets/124505409/f8ed031b-23fc-4336-ac00-bb768d017155)
+![Screenshot (884)](https://github.com/ThisaraJayas/Blog-Application-Mern/assets/124505409/e14d058c-1d53-48d3-9e4f-d9beb39c1ed1)
+![Screenshot (885)](https://github.com/ThisaraJayas/Blog-Application-Mern/assets/124505409/50ccbceb-d5f4-4e46-806e-96bf6f5ba82e)
+![Screenshot (886)](https://github.com/ThisaraJayas/Blog-Application-Mern/assets/124505409/9ef367e6-a244-4c49-8a47-87b9f1b69ed2)
+![Screenshot (888)](https://github.com/ThisaraJayas/Blog-Application-Mern/assets/124505409/a26fa055-d130-4540-8066-964715036822)
+![Screenshot (890)](https://github.com/ThisaraJayas/Blog-Application-Mern/assets/124505409/d13ef161-d209-405d-b328-6d104f6b515a)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
