@@ -39,7 +39,12 @@ header nav{
 }
 .post .texts h2{
   margin: 0;
+ 
   font-size: 1.6rem;
+}
+div.post div.texts a{
+  text-decoration: none;
+  color: inherit;
 }
 
 .info{
@@ -86,4 +91,17 @@ form h1{
 
 form.login h1, form.register h1{
   text-align: center;
+}
+div.postPage div.image{
+  max-height: 200px;
+  display: flex;
+  overflow: hidden;
+}
+div.postPage div.image img{
+  object-fit: cover;
+  object-position: center center;
+}
+div.postPage a{
+  color: #333;
+  text-decoration: underline;
 }
